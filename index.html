@@ -1,45 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mis Comidas Favoritas</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Index</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="pagina1.html">Página 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pagina2.html">Página 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pagina3.html">Página 3</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mis Comidas Favoritas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Espagueti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Migas con huevo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">Puré de papa</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <h1>TEXTO GRANDE</h1>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia necessitatibus voluptatibus possimus repellat
-    laboriosam cum temporibus eaque quos, est ducimus nam sequi soluta ad! Expedita eos dolorum ipsa veritatis modi.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate modi aliquam praesentium provident quasi
-    repudiandae suscipit beatae, assumenda, nostrum placeat rem mollitia quae. Ab deserunt labore suscipit laborum, ipsa
-    tenetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eum laborum at ex similique est officia
-    quaerat magni ipsam perspiciatis recusandae sit voluptas tempora corporis officiis harum, animi vitae cum. Lorem
-    ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit nobis temporibus doloremque. Perferendis a
-    provident sapiente cum quia labore, earum fugiat veritatis eligendi omnis vero voluptates doloremque corrupti aut.
 
-    <img src="md.jpg" alt="">
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-4">Mis Comidas Favoritas</h1>
+            <p class="lead">
+                Aquí, compartiré algunas de mis comidas favoritas y por qué las disfruto tanto. Desde platos
+                tradicionales hasta delicias caseras, la comida es una parte esencial de la vida y la cultura.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="s.jpg" alt="Espagueti" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Espagueti</h2>
+                        <p class="card-text">
+                            Uno de mis platos favoritos es el espagueti. La combinación de fideos perfectamente cocidos
+                            con una salsa deliciosa es simplemente irresistible. Es una comida que siempre
+                            me hace sonreír.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="m.jpg" alt="Migas con huevo" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Migas con Huevo</h2>
+                        <p class="card-text">
+                            Otra de mis elecciones preferidas son las migas con huevo. Es un plato sencillo pero lleno
+                            de sabor. Las migas crujientes junto con huevos escalfados son una delicia que me recuerda a
+                            mi infancia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="p.jpg" alt="Puré de papa" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Puré de Papa</h2>
+                        <p class="card-text">
+                            Y no puedo dejar de mencionar el puré de papa. Su textura suave y su sabor cremoso son
+                            incomparables. Es un acompañamiento perfecto para muchas comidas y siempre es bienvenido en
+                            mi mesa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center mt-5">
+        <div class="container">
+            <h2 class="display-4">¡Descubre más sobre mis comidas favoritas!</h2>
+            <p class="lead">Explora mis platillos favoritos que te harán disfrutar de la
+                comida tanto como yo.</p>
+            <a href="pagina1.html" class="btn btn-light btn-lg">Espagueti</a>
+            <a href="pagina2.html" class="btn btn-light btn-lg">Migas con Huevo</a>
+            <a href="pagina3.html" class="btn btn-light btn-lg">Puré de papa</a>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Comidas Favoritas Alain</p>
+    </footer>
+
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 
